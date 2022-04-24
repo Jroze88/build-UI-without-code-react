@@ -1,0 +1,22 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "author": "Jano Roze <JanoRoze@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "electron": "electron src",
+    "start": "BROWSER=none cross-env NODE_ENV=dev nodemon --ignore ./generated --watch ./src/**/* --watch . --exec 'yarn electron'"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "cross-env": "^7.0.3",
+    "electron": "^18.1.0",
+    "electron-devtools-installer": "^3.2.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "prettier": "^2.6.2",
+    "ps-tree": "^1.2.0"
+  }
+}
