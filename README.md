@@ -15,3 +15,7 @@ cd build-app-UI-react-native
 yarn
 yarn start
 ```
+
+
+![wide](./wide.gif)
+![cropped](./crop.gif)
