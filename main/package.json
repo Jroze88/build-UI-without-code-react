@@ -2,7 +2,7 @@
   "name": "main",
   "version": "1.0.0",
   "main": "./src/index.js",
-  "author": "Jano Roze <JanoRoze@gmail.com>",
+  "author": "Jano Roze <Jano.Roze@gmail.com>",
   "license": "MIT",
   "scripts": {
     "electron": "electron src",
